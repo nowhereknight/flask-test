@@ -12,15 +12,13 @@ import os
 app = Flask(__name__)
 app.config.from_object(Config)
 mongodb_client = PyMongo(app)
-db = mongodb_client.dbdb =  PyMongo(app)
+db = mongodb_client.db
 
 
 login = LoginManager(app)
 login.login_view = 'login'
 login.login_message = 'Por favor ingresa tus credenciales para acceder'
 bootstrap = Bootstrap(app)
-nyse_symbols = pdr.get_nasdaq_symbols()
-nyse_symbols = nyse_symbols.index.values
 
 if not app.debug:
     """ Configuración de los logs, accesibles por medio del comando heroku logs --tail

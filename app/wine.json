@@ -1,0 +1,29 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "title":"Wine",
+    "description":"A wine request json",
+    "type":"object",
+    "properties":{
+       "name":{
+          "description":"The name of the wine",
+          "type":"string"
+       },
+       "type":{
+          "description":"Grape type",
+          "type":"string"
+       },
+       "year":{
+          "type":"number"
+       },
+       "country":{
+        "description":"Country of procedence",
+        "type":"string"
+     }
+    },
+    "required":[
+       "name",
+       "year",
+       "type",
+       "country"
+    ]
+ }

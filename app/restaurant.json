@@ -1,0 +1,24 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "title":"Restaurant",
+    "description":"A restaurant request json",
+    "type":"object",
+    "properties":{
+       "name":{
+          "description":"The name of the restaurant",
+          "type":"string"
+       },
+       "address":{
+          "description":"Address of the restaurant",
+          "type":"string"
+       },
+       "manager_id":{
+         "description":"Manager of the restaurant",
+         "type":"string"
+      }
+    },
+    "required":[
+       "name",
+       "address"
+    ]
+ }
