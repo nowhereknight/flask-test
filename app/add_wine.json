@@ -1,0 +1,15 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "title":"Add wine to restaurant",
+    "description":"An add wine to restaurant request json",
+    "type":"object",
+    "properties":{
+       "wine_id":{
+          "description":"The id of the wine to be added",
+          "type":"string"
+       }
+    },
+    "required":[
+       "wine_id"
+    ]
+ }

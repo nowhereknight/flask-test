@@ -69,3 +69,8 @@ Una vez se termina de usar el entorno virtual es posible salir usando el comando
 
 ### Flask Docummentation
 [Documentación de Flask](https://flask.palletsprojects.com/en/2.0.x/)
+
+
+### Actividades pendientes
+- Añadir constraints en la eiminación de vinos y restaurantes (Borrar en cascada o solo iterar por todos los clientes e ir eliminando)
+- Mejorar los esquemas para incluir solo parametros necesarios y que cumplan formatos

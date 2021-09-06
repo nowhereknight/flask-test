@@ -1,0 +1,15 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "title":"Add restaurant to client",
+    "description":"An add restaurant to client request json",
+    "type":"object",
+    "properties":{
+       "restaurant_id":{
+          "description":"The id of the restaurant to be added",
+          "type":"string"
+       }
+    },
+    "required":[
+       "restaurant_id"
+    ]
+ }

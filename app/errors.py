@@ -13,6 +13,11 @@ def method_not_allowed(error):
     #db.session.rollback()
     return make_response({"msg":"Metodo no soportado"}, 405, headers)
 
+@app.errorhandler(400)
+def method_not_allowed(error):
+    #db.session.rollback()
+    return make_response({"msg":"Solicitud inválida"}, 405, headers)
+
 @app.errorhandler(500)
 def internal_error(error):
     #db.session.rollback()

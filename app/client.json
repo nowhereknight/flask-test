@@ -1,0 +1,24 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "title":"Wine",
+    "description":"A client request json",
+    "type":"object",
+    "properties":{
+       "name":{
+          "description":"The name of the client",
+          "type":"string"
+       },
+       "email":{
+          "description":"The email of the client",
+          "type":"string"
+       },
+       "telephone":{
+          "type":"string"
+       }
+    },
+    "required":[
+       "name",
+       "email",
+       "telephone"
+    ]
+}
