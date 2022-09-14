@@ -1,4 +1,4 @@
-# WineAdvisor Test
+# Flask Test
 Aplicación web basada en Flask diseñada para desplegar las API's REST necesarias para efectuar las acciones CRUD sobre tres modelos de datos (vino, cliente y restaurante) en MongoDB
 
 Credit where credit is due, esta aplicación no habría sido remotamente posible sin el apoyo del [Flask Mega-Tutorial series](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) de Miguel Grinberg
